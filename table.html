@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Table Example</title>
+</head>
+<style>
+    th{
+        background-color: #f40D50;
+        color: #2C3E50;
+    }
+
+
+    th, td{
+        padding: 0.7rem;
+        text-align: left;
+        border-bottom: 2px solid #ddd;
+    }
+
+</style>
+<body>
+    <table>
+        <!--The Head Section-->
+        <thead>
+            <tr>
+             <th>Stock</th>
+             <th>Price</th>
+            </tr>
+        </thead>
+
+
+        <!--The Body Section-->
+        <tbody>
+            <tr>
+                <td>Tesla</td>
+                <td>194.50</td>
+            </tr>
+
+            <tr>
+                <td>OXY</td>
+                <td>61.92</td>
+            </tr>
+        </tbody>
+
+
+        <!--The Foot Section-->
+        <tfoot>
+            <tr>
+                <td>Max Price</td>
+                <td>194.50</td>
+            </tr>
+        </tfoot>        
+    </table>
+</body>
+</html>
